@@ -32,14 +32,35 @@ p {
 
 
 a {
-  color: #666;
+  color: #000;
 }
 
  a:hover {
-   color: #fff;
+  color: #fff;
   background-color: #000;
 }
 
-th {
-  padding-bottom: 5px;
+h2 {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  cursor: default;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+div {
+    display: block;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
 }
