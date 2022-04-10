@@ -1,4 +1,7 @@
-<p id="notice"></p>
+<div class="flash-message">
+  <%= flash[:success] %>
+  <%= flash[:update] %>
+</div>
 
 <p>
   <strong>Title:</strong>
@@ -10,4 +13,5 @@
   <%= @book.body %>
 </p>
 <%= link_to "Edit", edit_book_path(@book.id) %>
+|
 <a class="back" href="/books">Back</a>
